@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="Learning assertions(failed)">
+    <classes>
+      <class name="tests.SellItemsTest">
+        <methods>
+          <include name="shouldWeSkip"/>
+        </methods>
+      </class> <!-- tests.SellItemsTest -->
+      <class name="tests.UsingAssertions">
+        <methods>
+          <include name="testGoogleSearch"/>
+        </methods>
+      </class> <!-- tests.UsingAssertions -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openConnection"/>
+          <include name="openBrowser"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Learning assertions(failed) -->
+  <test name="Selling Books(failed)">
+    <classes>
+      <class name="tests.SellItemsTest">
+        <methods>
+          <include name="shouldWeSkip"/>
+          <include name="testSellingBooks"/>
+        </methods>
+      </class> <!-- tests.SellItemsTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openConnection"/>
+          <include name="openBrowser"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Selling Books(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->
